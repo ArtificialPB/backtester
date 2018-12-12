@@ -3,6 +3,7 @@ from pyalgotrade.barfeed import Frequency
 from pyalgotrade.barfeed.csvfeed import GenericBarFeed
 from pyalgotrade.bitstamp.broker import BacktestingBroker
 from pyalgotrade.stratanalyzer import returns
+import os
 
 
 class BuyAndHoldStrategy(strategy.BacktestingStrategy):
